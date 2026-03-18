@@ -1,0 +1,72 @@
+ ⨯ TypeError: fetch failed
+    at async getSubjects (./app/page.tsx:13:22)
+    at async HomePage (./app/page.tsx:21:22)
+digest: "2846213642"
+Cause: Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+ ⨯ TypeError: fetch failed
+    at async getSubjects (./app/page.tsx:13:22)
+    at async HomePage (./app/page.tsx:21:22)
+digest: "2846213642"
+Cause: Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+ ⨯ TypeError: fetch failed
+    at async getSubjects (./app/page.tsx:13:22)
+    at async HomePage (./app/page.tsx:21:22)
+digest: "2846213642"
+Cause: Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+ ⨯ TypeError: fetch failed
+    at async getSubjects (./app/page.tsx:13:22)
+    at async HomePage (./app/page.tsx:21:22)
+digest: "2846213642"
+Cause: Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+ ⨯ TypeError: fetch failed
+    at async getSubjects (./app/page.tsx:13:22)
+    at async HomePage (./app/page.tsx:21:22)
+digest: "2846213642"
+Cause: Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+ ⨯ TypeError: fetch failed
+    at async getSubjects (./app/page.tsx:13:22)
+    at async HomePage (./app/page.tsx:21:22)
+digest: "2846213642"
+Cause: Error: connect ECONNREFUSED 127.0.0.1:4000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}

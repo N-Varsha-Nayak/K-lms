@@ -1,0 +1,18 @@
+
+> k-lms-frontend@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.7s (493 modules)
+ GET / 500 in 5827ms
+ GET / 500 in 9589ms
+ GET / 500 in 83ms
+ GET / 200 in 225ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 1128ms (513 modules)

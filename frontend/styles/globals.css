@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-ui: "Sora", "Segoe UI", sans-serif;
+  --font-copy: "DM Sans", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-copy);
+  background-image: radial-gradient(circle at 15% -5%, rgba(59, 130, 246, 0.14), transparent 42%),
+    radial-gradient(circle at 90% 110%, rgba(15, 23, 42, 0.08), transparent 38%);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-ui);
+}
+
+.card {
+  @apply rounded-2xl border border-black/5 bg-panel shadow-soft backdrop-blur;
+}
+
+.input {
+  @apply w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none transition focus:border-accent;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl bg-ink px-4 py-2 text-sm font-semibold text-white transition hover:opacity-95;
+}
+
+.btn-muted {
+  @apply inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-ink transition hover:bg-slate-50;
+}
+
+.hero-panel {
+  @apply relative overflow-hidden rounded-3xl border border-blue-100 bg-gradient-to-br from-white via-blue-50 to-slate-100 p-8 shadow-soft;
+}
+
+.pill {
+  @apply inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-1 text-xs font-semibold text-slate-600;
+}

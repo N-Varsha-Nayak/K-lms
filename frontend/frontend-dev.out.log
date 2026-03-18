@@ -16,3 +16,70 @@
  GET / 200 in 225ms
  ○ Compiling /login ...
  ✓ Compiled /login in 1128ms (513 modules)
+ ○ Compiling /subjects ...
+ ✓ Compiled /subjects in 610ms (501 modules)
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 751ms (507 modules)
+ GET / 200 in 238ms
+ GET /subjects 200 in 226ms
+ ○ Compiling /progress ...
+ ✓ Compiled /progress in 909ms (515 modules)
+ ✓ Compiled in 1180ms (266 modules)
+ ✓ Compiled in 3.3s (532 modules)
+ ✓ Compiled in 2.4s (540 modules)
+ ✓ Compiled in 3.4s (527 modules)
+ ✓ Compiled in 2.4s (541 modules)
+ ✓ Compiled in 1137ms (272 modules)
+ ○ Compiling /register ...
+ ✓ Compiled /register in 534ms (533 modules)
+ ✓ Compiled in 1575ms (547 modules)
+ GET /subjects 200 in 269ms
+ ○ Compiling /subjects/[subjectId] ...
+ ✓ Compiled /subjects/[subjectId] in 2.2s (535 modules)
+ ✓ Compiled /register in 177ms (277 modules)
+ GET /subjects 200 in 129ms
+ GET / 200 in 45ms
+ GET / 200 in 77ms
+ ○ Compiling /subjects/[subjectId]/video/[videoId] ...
+ ✓ Compiled /subjects/[subjectId]/video/[videoId] in 678ms (541 modules)
+ ✓ Compiled /subjects/[subjectId] in 226ms (275 modules)
+ ✓ Compiled / in 220ms (275 modules)
+ ✓ Compiled in 2.8s (551 modules)
+ GET /subjects/9 200 in 269ms
+ GET /subjects 200 in 61ms
+ GET /subjects 200 in 58ms
+ ✓ Compiled /login in 369ms (275 modules)
+ ✓ Compiled /profile in 275ms (279 modules)
+ ✓ Compiled in 2s (553 modules)
+ ✓ Compiled in 974ms (553 modules)
+ GET /subjects/3 200 in 295ms
+ GET /subjects/3/video/9 200 in 113ms
+ GET /progress 200 in 73ms
+ GET /progress 200 in 29ms
+ ○ Compiling /register ...
+ ✓ Compiled /register in 539ms (276 modules)
+ ✓ Compiled /login in 278ms (280 modules)
+ ○ Compiling /profile ...
+ ✓ Compiled /profile in 527ms (275 modules)
+ ✓ Compiled / in 184ms (279 modules)
+ ✓ Compiled /progress in 145ms (276 modules)
+ ✓ Compiled in 2.3s (553 modules)
+ ✓ Compiled /subjects in 355ms (276 modules)
+ GET /subjects 200 in 1597ms
+ GET /subjects/3/video/9 200 in 1518ms
+ GET /subjects/3/video/9 200 in 85ms
+ GET /subjects 200 in 91ms
+ GET /subjects 200 in 48ms
+ ○ Compiling /register ...
+ ✓ Compiled /register in 635ms (274 modules)
+ ✓ Compiled in 1779ms (551 modules)
+ GET / 200 in 202ms
+ ✓ Compiled /register in 277ms (274 modules)
+ ✓ Compiled /login in 451ms (278 modules)
+ ✓ Compiled /subjects/[subjectId]/video/[videoId] in 346ms (276 modules)
+ ○ Compiling /subjects/[subjectId] ...
+ ✓ Compiled /subjects/[subjectId] in 618ms (275 modules)
+ GET /subjects/10 200 in 275ms
+ GET /subjects/10 200 in 104ms
+ GET / 200 in 72ms
+ ✓ Compiled /progress in 315ms (280 modules)

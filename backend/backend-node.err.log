@@ -1,3 +1,263 @@
 Ignoring invalid configuration option passed to Connection: ssl-mode. This is currently a warning, but in future versions of MySQL2, an error will be thrown if you pass an invalid configuration option to a Connection
 (node:20120) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+Error: Invalid or expired token
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:19:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Invalid or expired token
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:19:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Unauthorized
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:7:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Unauthorized
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:7:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Invalid or expired token
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:19:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Unauthorized
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:7:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Unauthorized
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:7:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Unauthorized
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:7:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Unauthorized
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:7:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:47:12) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}
+Error: Invalid or expired token
+    at requireAuth (file:///C:/Users/Dell/Documents/K-lms/backend/src/middleware/authMiddleware.js:19:19)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10) {
+  statusCode: 401
+}
+Error: Missing refresh token
+    at createHttpError (file:///C:/Users/Dell/Documents/K-lms/backend/src/utils/errors.js:2:17)
+    at file:///C:/Users/Dell/Documents/K-lms/backend/src/modules/auth/auth.routes.js:84:25
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\Dell\Documents\K-lms\backend\node_modules\express\lib\router\index.js:175:3) {
+  statusCode: 401
+}

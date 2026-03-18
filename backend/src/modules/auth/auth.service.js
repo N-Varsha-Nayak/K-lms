@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { dbQuery } from '../../config/db.js';
 import { createHttpError } from '../../utils/errors.js';
 import { sha256 } from '../../utils/crypto.js';

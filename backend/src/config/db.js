@@ -1,8 +1,18 @@
 import mysql from 'mysql2/promise';
 import { env } from './env.js';
 
+function sanitizeDatabaseUrl(rawUrl) {
+  try {
+    const parsed = new URL(rawUrl);
+    parsed.searchParams.delete('ssl-mode');
+    return parsed.toString();
+  } catch {
+    return rawUrl;
+  }
+}
+
 const baseOptions = {
-  uri: env.databaseUrl,
+  uri: sanitizeDatabaseUrl(env.databaseUrl),
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,

@@ -193,25 +193,62 @@ npm run dev
 
 Open `http://localhost:3000`.
 
-## Deployment
+## Deployment (Vercel)
 
-### Backend deployment (any Node host)
+Deploy as **two Vercel projects**:
+1. Backend project rooted at `backend/`
+2. Frontend project rooted at `frontend/`
 
-1. Set all backend env vars in host.
-2. Ensure `FRONTEND_ORIGIN` is your Vercel domain.
-3. Run:
-   - `npm ci`
-   - `npm run migrate`
-   - `npm run start`
-4. Verify health endpoint: `/api/health`.
+### 1) Deploy Backend to Vercel
 
-### Frontend deployment (Vercel)
+1. In Vercel, click **Add New Project**.
+2. Select this repo and set **Root Directory** to `backend`.
+3. Keep framework as **Other**.
+4. Add environment variables:
+  - `NODE_ENV=production`
+  - `DATABASE_URL=mysql://avnadmin:<password>@mysql-1d11440d-movieland.i.aivencloud.com:17674/defaultdb?ssl-mode=REQUIRED`
+  - `DB_SSL=true`
+  - `JWT_ACCESS_SECRET=<strong-secret>`
+  - `JWT_REFRESH_SECRET=<strong-secret>`
+  - `JWT_ACCESS_EXPIRES_IN=15m`
+  - `JWT_REFRESH_EXPIRES_IN=30d`
+  - `REFRESH_COOKIE_NAME=refresh_token`
+  - `REFRESH_COOKIE_SECURE=true`
+  - `AUTO_RUN_MIGRATIONS=false`
+  - `FRONTEND_ORIGIN=https://<your-frontend-project>.vercel.app`
+5. Deploy.
 
-1. Import `frontend/` as Vercel project root.
-2. Set env var:
-   - `NEXT_PUBLIC_API_BASE_URL=https://<your-backend-domain>/api`
-3. Build command: `npm run build`
-4. Start command: `npm run start`
+Backend Vercel routing is handled by `backend/vercel.json`, and API remains under `/api/*`.
+
+Health check URL:
+- `https://<your-backend-project>.vercel.app/api/health`
+
+### 2) Run Migrations for Production Database
+
+Run once from your machine (or CI):
+
+```bash
+cd backend
+npm install
+npm run migrate
+npm run seed
+```
+
+### 3) Deploy Frontend to Vercel
+
+1. In Vercel, click **Add New Project**.
+2. Select this repo and set **Root Directory** to `frontend`.
+3. Framework preset: **Next.js**.
+4. Add env var:
+  - `NEXT_PUBLIC_API_BASE_URL=https://<your-backend-project>.vercel.app/api`
+5. Deploy.
+
+### 4) Final CORS Update
+
+After frontend deploy, copy the exact frontend URL and update backend env:
+- `FRONTEND_ORIGIN=https://<your-frontend-project>.vercel.app`
+
+Redeploy backend after this update.
 
 ### Aiven MySQL
 

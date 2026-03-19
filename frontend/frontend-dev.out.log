@@ -83,3 +83,4 @@
  GET /subjects/10 200 in 104ms
  GET / 200 in 72ms
  ✓ Compiled /progress in 315ms (280 modules)
+ GET /subjects 200 in 955ms
